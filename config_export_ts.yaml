@@ -1,0 +1,12 @@
+# Имя пользователя
+username: Administrator
+# Пароль пользователя
+password: P@ssw0rd
+# client_secret, можно получить командой: cat /var/lib/deployer/role_instances/c*/params.yaml | grep ClientSecret
+siem_api_secret_mpx: ffffff-ffffff-ffffff-ffffff-ffffff
+# url доступа до SIEM ip/fqdn
+base: siem.test.com
+# Дельта в днях (now-7d)
+default_days: 7
+# Название табличного списка
+ts_name: AssetGrid_AD_Domain_Controllers
